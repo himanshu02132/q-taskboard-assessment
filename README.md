@@ -1,6 +1,6 @@
 # TaskBoard — Project Management App
 
-> 🎥 **Screen Recording:** [Insert Loom link here] — see `RECORDING.md` for details.
+> 🎥 **Screen Recording:** [[Insert Loom link here](https://drive.google.com/file/d/1ohEVQc91tiNKTKw_RIoS5L31-cUsVZnk/view?usp=sharing)] — see `RECORDING.md` for details.
 
 A Next.js 15 fullstack application for managing projects, tasks, and team members. TypeScript + Prisma + PostgreSQL on the server, React 19 + TanStack Query on the client.
 
