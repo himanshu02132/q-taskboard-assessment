@@ -1,6 +1,31 @@
 # TaskBoard — Project Management App
 
+> 🎥 **Screen Recording:** [Insert Loom link here] — see `RECORDING.md` for details.
+
 A Next.js 15 fullstack application for managing projects, tasks, and team members. TypeScript + Prisma + PostgreSQL on the server, React 19 + TanStack Query on the client.
+
+## What was added (assessment work)
+
+| Part | Description | Status |
+|------|-------------|--------|
+| Part 1 | Code review — 4 issues in `REVIEW.md` | ✅ |
+| Part 2 | Fixed SQL injection + missing PATCH authorization | ✅ |
+| Part 3a | Task comment threads (append-only, role-enforced) | ✅ |
+| Part 3b | Project activity feed (chronological audit trail) | ✅ |
+| Part 3c | Bulk export tasks to Airtable (idempotent, retry logic) | ✅ |
+
+**New API endpoints:**
+- `GET  /api/tasks/:id/comments` — list comments (any member)
+- `POST /api/tasks/:id/comments` — post comment (admin/member only)
+- `GET  /api/projects/:id/activity` — activity feed (any member)
+- `POST /api/projects/:id/export` — export to Airtable (admin/member only)
+
+**New env vars required for export:**
+```
+AIRTABLE_API_KEY=pat...
+AIRTABLE_BASE_ID=app...
+AIRTABLE_TABLE_NAME=Tasks
+```
 
 ## Quick Setup (Docker — Recommended)
 
