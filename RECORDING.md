@@ -5,7 +5,7 @@
 > **TODO:** Record your session with [Loom](https://loom.com) or similar,
 > then replace this line with the link:
 >
-> 🎥 **[Insert Loom / recording link here]**
+> 🎥 [**[Insert Loom / recording link here]**](https://drive.google.com/file/d/1ohEVQc91tiNKTKw_RIoS5L31-cUsVZnk/view?usp=drive_link)
 
 ---
 
